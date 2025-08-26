@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StaticInsta</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="global.js"></script>
+</head>
+<body>
+
+<header class="si-navbar">
+  <div class="si-nav-inner">
+    <a class="si-brand" href="index.html">
+      <span class="si-badge">SI</span>
+      <span class="si-title">StaticInsta</span>
+    </a>
+    <nav class="si-nav-actions">
+      <a href="index.html">Home</a>
+      <a href="upload.html">Upload</a>
+      <a href="profile.html">Profile</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="signin.html" id="navSignIn">Sign In</a>
+    </nav>
+  </div>
+</header>
+
+
+<main class="si-main">
+  <div class="si-container si-grid">
+    <section class="si-col-wide">
+      <div class="si-card">
+        <div class="si-card-header">
+          <h2>Latest Posts</h2>
+        </div>
+        <div id="homePosts" class="si-card-body feed-grid"></div>
+      </div>
+    </section>
+    <aside class="si-col-side">
+      <div class="si-card">
+        <div class="si-card-header"><h3>Welcome</h3></div>
+        <div class="si-card-body">
+          <p>Share photos and videos with StaticInsta.</p>
+          <a class="si-btn" href="upload.html">Create a Post</a>
+        </div>
+      </div>
+      <div class="si-card">
+        <div class="si-card-header"><h3>Quick Links</h3></div>
+        <div class="si-card-body si-links">
+          <a href="profile.html">Your Profile</a>
+          <a href="dashboard.html">Dashboard</a>
+          <a href="signin.html">Sign In</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<footer class="si-footer">
+  <div class="si-container">© 2025 StaticInsta</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

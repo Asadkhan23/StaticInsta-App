@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StaticInsta – Sign Up</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="global.js"></script>
+</head>
+<body>
+
+<header class="si-navbar">
+  <div class="si-nav-inner">
+    <a class="si-brand" href="index.html">
+      <span class="si-badge">SI</span>
+      <span class="si-title">StaticInsta</span>
+    </a>
+    <nav class="si-nav-actions">
+      <a href="index.html">Home</a>
+      <a href="upload.html">Upload</a>
+      <a href="profile.html">Profile</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="signin.html" id="navSignIn">Sign In</a>
+    </nav>
+  </div>
+</header>
+
+
+<main class="si-main auth">
+  <div class="si-container">
+    <div class="si-card si-auth-card">
+      <div class="si-card-header center"><h2>Create your StaticInsta account</h2></div>
+      <div class="si-card-body">
+        <form id="signupForm" class="si-form">
+          <div class="si-row">
+            <input type="text" id="firstName" placeholder="First name" required />
+            <input type="text" id="lastName" placeholder="Last name" required />
+          </div>
+          <input type="email" id="email" placeholder="Email" required />
+          <input type="tel" id="phone" placeholder="Phone" required />
+          <div class="si-row">
+            <input type="password" id="password" placeholder="Password" required />
+            <input type="password" id="confirmPassword" placeholder="Confirm password" required />
+          </div>
+          <button type="submit" class="si-btn">Create account</button>
+          <a href="signin.html" class="si-btn si-btn-ghost">Already have an account</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="si-footer">
+  <div class="si-container">© 2025 StaticInsta</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
