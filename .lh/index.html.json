@@ -1,0 +1,18 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1756241499141,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1756241499141,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n  <title>StaticInsta</title>\n  <link rel=\"stylesheet\" href=\"styles.css\" />\n  <script src=\"global.js\"></script>\n</head>\n<body>\n\n<header class=\"si-navbar\">\n  <div class=\"si-nav-inner\">\n    <a class=\"si-brand\" href=\"index.html\">\n      <span class=\"si-badge\">SI</span>\n      <span class=\"si-title\">StaticInsta</span>\n    </a>\n    <nav class=\"si-nav-actions\">\n      <a href=\"index.html\">Home</a>\n      <a href=\"upload.html\">Upload</a>\n      <a href=\"profile.html\">Profile</a>\n      <a href=\"dashboard.html\">Dashboard</a>\n      <a href=\"signin.html\" id=\"navSignIn\">Sign In</a>\n    </nav>\n  </div>\n</header>\n\n\n<main class=\"si-main\">\n  <div class=\"si-container si-grid\">\n    <section class=\"si-col-wide\">\n      <div class=\"si-card\">\n        <div class=\"si-card-header\">\n          <h2>Latest Posts</h2>\n        </div>\n        <div id=\"feed\" class=\"si-card-body feed-grid\"></div>\n      </div>\n    </section>\n    <aside class=\"si-col-side\">\n      <div class=\"si-card\">\n        <div class=\"si-card-header\"><h3>Welcome</h3></div>\n        <div class=\"si-card-body\">\n          <p>Share photos and videos with StaticInsta.</p>\n          <a class=\"si-btn\" href=\"upload.html\">Create a Post</a>\n        </div>\n      </div>\n      <div class=\"si-card\">\n        <div class=\"si-card-header\"><h3>Quick Links</h3></div>\n        <div class=\"si-card-body si-links\">\n          <a href=\"profile.html\">Your Profile</a>\n          <a href=\"dashboard.html\">Dashboard</a>\n          <a href=\"signin.html\">Sign In</a>\n        </div>\n      </div>\n    </aside>\n  </div>\n</main>\n\n<footer class=\"si-footer\">\n  <div class=\"si-container\">© 2025 StaticInsta</div>\n</footer>\n\n<script src=\"script.js\"></script>\n</body>\n</html>\n"
+        }
+    ]
+}
